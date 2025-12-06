@@ -357,6 +357,7 @@ if (bookingForm) {
 
       if (result.success) {
         alert("Booking submitted successfully.");
+        bookingForm.reset();
       } else {
         alert("Error submitting booking.");
       }
